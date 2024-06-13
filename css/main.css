@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +11,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     background-image: url("../img/background.png");
     background-size:cover;
     background-color: rgb(193, 156, 156);
@@ -44,11 +45,18 @@ body {
 
 h1{
     color: blue;
-    font-family: "Inter", sans-serif;
-    font-size: 4rem;
-    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+    font-style:italic;
     position:relative;
+    text-align: center;
     
+}
+
+.titulos{
+
+    padding-top: 0%;
+    padding-bottom: 2%;
 }
 
 .imgheader{
@@ -64,7 +72,7 @@ h1{
 
 .logofooter {
 
-    height: 10rem;
+    height: 8rem;
     width: 7rem;
     align-items: center;
 
@@ -73,48 +81,113 @@ h1{
 .imginicio {
 
     display: flex;
-    width: 70%;
-    height: 1100px;
+    width: 80%;
+    height: 1300px;
 }
 
 .footer {
 
     display: flex;
     justify-content: center;
-    color: rgb(52, 52, 183);
+    text-align: center;
+    color: rgb(250, 250, 250);
+    padding-top: 10%;
 }
 
 .contenedor {
-    height: 100vh;
+    padding-top: 0%;
+    height: 90vh;
     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+
+    
 }
 
 .cancion1 {
+    font-family: "Merriweather";
+    font-size: 2.7rem;
+    border-radius: 2%;
+    color: aquamarine;
     text-decoration: none;
-    background-color: blue;
+    background-color: rgb(76, 76, 150);
+    align-content: center;
+    
 }
 
 .cancion2 {
+    font-family: "Merriweather";
+    font-size: 2.7rem;
+    border-radius: 2%;
+    color: aquamarine;
     text-decoration: none;
     background-color: red;
+    align-content: center;
 }
 
 .cancion3 {
+    font-family: "Merriweather";
+    font-size: 2.7rem;
+    border-radius: 2%;
+    color: aquamarine;
     text-decoration: none;
-    background-color: blue;
+    background-color: rgb(76, 76, 150);
+    align-content: center;
 }
 
 .cancion4 {
+    font-family: "Merriweather";
+    font-size: 2.7rem;
+    border-radius: 2%;
+    color: aquamarine;
     text-decoration: none;
     background-color: red;
+    align-content: center;
 }
 
 .cancion5 {
+    font-family: "Merriweather";
+    font-size: 2.7rem;
+    border-radius: 2%;
+    color: aquamarine;
     text-decoration: none;
-    background-color: blue;
+    background-color: rgb(76, 76, 150);
+    align-content: center;
 }
 
 .cancion6 {
+    font-family: "Merriweather";
+    font-size: 2.7rem;
+    border-radius: 2%;
+    color: aquamarine;
     text-decoration: none;
     background-color: red;
+    align-content: center;
+}
+
+input, textarea {
+    border: 0
+}
+
+.field {
+    border: solid 1px #ccc;
+    padding: 12px;
+    width: 300px;
+}
+
+.field:focus {
+    border-color: rgb(152, 174, 236);
+}
+
+.formcontacto {
+    
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(152, 174, 236);
+    padding: 100px;
+    width: 600px;
+    color: black;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    justify-content: center;
 }

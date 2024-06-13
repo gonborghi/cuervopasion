@@ -33,47 +33,50 @@
     </header>
 
     
-    <h1>Contacto</h1>
+    <main>
+        <h1>Contacto</h1>
 
-    <form action="" method="" enctype="">
-        <input type="text" maxlength="9" placeholder="ingrese nombre" required>
-        <br>
-        <input type="email" minlength="4">
-        <br>
-        <input type="number" minlength="4">
-        <br>
-        <textarea rows="4" cols="60"></textarea>
-        <br>
+        <div class="formcontacto">
 
-        <!-- <br>
-        <label><input type="radio" name="byc"> Si acepto</label>
-        <input type="radio" name="byc" id="no"> <label for="no">No acepto</label>
-        Poniendo el mismo nombre no permite seleccionar ambos-->
-        <br>
-        <!-- <label><input type="checkbox">Remera</label>
-        <label><input type="checkbox">Buzo</label>
-        <label><input type="checkbox">Campera</label>
-        <br><br>
-        <select name="" id="">
-            <option value="">Talle s</option>
-            <option value="">Talle m</option>
-            <option value="">Talle l</option> 
-        </select> -->
-        <br><br>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
-    </form>
+            <form action="" method="" enctype="" >
 
-    <footer>
+                <p>Nombre</p>
+                <input type="text" maxlength="9" placeholder="Ingrese su nombre" required class="field">
+                <br>
+                <br>
+
+                <p>Email</p>
+                <input type="email" minlength="4" class="field">
+                <br>
+                <br>
+
+                <p>Número de celular</p>
+                <input type="number" minlength="4" class="field">
+                <br>
+                <br>
+
+                <p>Motivo de contacto</p>
+                <textarea rows="5" cols="40"></textarea>
+                <br>
+
+                <br><br>
+
+                <p class="center-content">
+                    <input type="submit" class="btn btn-white" value="Enviar">
+                </p>
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="footer">
 
         <div>
-            <img src="../img/logofooter.jpg" alt="Logo del footer" class="logofooter">
+            <img src="../img/logoheader.png" alt="Logo del footer" class="logofooter">
+            <p>Todos los derechos reservados - CASLA</p>
+            <p>2024</p>
         </div>
-        
-        <p>Todos los derechos reservados - CASLA</p>
-        <p>2024</p>
 
-        </div>
     </footer>
 
 </body>
