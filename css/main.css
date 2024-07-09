@@ -15,32 +15,8 @@ body {
     background-image: url("../img/fondosanlo.jpg");
     background-size:cover;
     color: aliceblue;
-    background-color:rgb(230, 168, 168);
     margin-left: 7px;
 
-}
-
-.menu{
-    
-    background-color: blue;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
-.menu-item{
-
-    color: red;
-    text-decoration: none;
-    background-color: blue;
-    padding: 2rem;
-    font-size: 1.8rem;
 }
 
 h1{
@@ -51,6 +27,8 @@ h1{
     position:relative;
     text-align: center;   
     margin-top: 30px;
+    animation: bounce;
+    animation-duration: 2s;
 }
 
 h2{
@@ -58,20 +36,7 @@ h2{
     color: rgb(201, 78, 78);
 }
 
-
-
-.titulos{
-
-    padding-top: 0%;
-    padding-bottom: 2%;
-}
-
-.imgheader{
-
-    height: 7.5rem;
-    width: 6.5rem;
-}
-
+/* Texto inicio */
 .cuervopasion {
 
     text-align: center;
@@ -85,11 +50,13 @@ h2{
 
 }
 
+/* Imagen del inicio */
 .imginicio {
 
     display: flex;
     width: 80%;
     height: 1300px;
+
 }
 
 .footer {
@@ -101,6 +68,7 @@ h2{
     padding-top: 10%;
 }
 
+/* Grid en la pestaña de canciones */
 .contenedor {
     padding-top: 0%;
     height: 90vh;
@@ -172,6 +140,7 @@ h2{
     align-content: center;
 }
 
+/* Elementos del formulario de contacto */
 input, textarea {
     border: 0
 }
@@ -205,7 +174,7 @@ input, textarea {
     justify-content: center;
 }
 
-
+/* Fondo del navbar */
 .width-bg {
     background-image: url("../img/fondosanlo.jpg");
 }
