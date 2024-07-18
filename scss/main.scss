@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$montserrat: "Montserrat", sans-serif;
+$letrabody: 1.7rem;
+$colortitulos: rgb(201, 78, 78);
+$tamanotitulosh1: 5rem;
+$alineacion-centro: center;
+$margentitulos: 30px;
+$animaciontitulos: bounce;
+$duracion-animacion: 2s;
+$tamanotitulosh2: 3rem;
+$justificacion-centro: center;
+$merriweather: "Merriweather";
+$tamano-canciones: 2.7rem;
+$bordercanciones: 2%;
+$no-subrayado: none;
+$fondocanciones: aquamarine;
+
+
+
+body{
+    background-image: url("../img/fondosanlo.jpg");
+    background-size:cover;
+    color: aliceblue;
+    margin-left: 7px;
+    font-family: $montserrat;
+    font-size: $letrabody;
+}
+
+h1{
+    color: $colortitulos;
+    font-family: $montserrat;
+    font-size: $tamanotitulosh1;
+    font-style:italic;
+    position:relative;
+    text-align: $alineacion-centro;   
+    margin-top: $margentitulos;
+    animation: $animaciontitulos;
+    animation-duration: $duracion-animacion;
+}
+
+h2{
+    font-size: $tamanotitulosh2;
+    color: $colortitulos;
+}
+
+/* Texto inicio */
+.cuervopasion{
+    text-align: $alineacion-centro;
+}
+
+.logofooter {
+    height: 8rem;
+    width: 7rem;
+    align-items: $alineacion-centro;
+}
+
+/* Imagen del inicio */
+.imginicio {
+    display: flex;
+    width: 80%;
+    height: 1300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: $justificacion-centro;
+    text-align: $alineacion-centro;
+    color: rgb(250, 250, 250);
+    padding-top: 10%;
+}
+
+/* Grid en la pestaña de canciones */
+.contenedor {
+    padding-top: 0%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: $alineacion-centro;
+}
+
+.cancion1 {
+    font-family: "Merriweather";
+    font-size: $tamano-canciones;
+    border-radius: $bordercanciones;
+    color: aquamarine;
+    text-decoration: $no-subrayado;
+    background-color: rgb(76, 76, 150);
+    align-content: $alineacion-centro;
+}
+
+.cancion2 {
+    font-family: "Merriweather";
+    font-size: $tamano-canciones;
+    border-radius: $bordercanciones;
+    color: $fondocanciones;
+    text-decoration: $no-subrayado;
+    background-color: red;
+    align-content: $alineacion-centro;
+}
+
+.cancion3 {
+    font-family: "Merriweather";
+    font-size: $tamano-canciones;
+    border-radius: $bordercanciones;
+    color: $fondocanciones;
+    text-decoration: $no-subrayado;
+    background-color: rgb(76, 76, 150);
+    align-content: $alineacion-centro;
+}
+
+.cancion4 {
+    font-family: "Merriweather";
+    font-size: $tamano-canciones;
+    border-radius: $bordercanciones;
+    color: $fondocanciones;
+    text-decoration: $no-subrayado;
+    background-color: red;
+    align-content: $alineacion-centro;
+}
+
+.cancion5 {
+    font-family: "Merriweather";
+    font-size: $tamano-canciones;
+    border-radius: $bordercanciones;
+    color: $fondocanciones;
+    text-decoration: $no-subrayado;
+    background-color: rgb(76, 76, 150);
+    align-content: $alineacion-centro;
+}
+
+.cancion6 {
+    font-family: "Merriweather";
+    font-size: $tamano-canciones;
+    border-radius: $bordercanciones;
+    color: $fondocanciones;
+    text-decoration: $no-subrayado;
+    background-color: red;
+    align-content: $alineacion-centro;
+}
+
+
+/* Elementos del formulario de contacto */
+input, textarea {
+    border: 0
+}
+
+.field {
+    border: solid 1px #ccc;
+    width: 300px;
+}
+
+.field:focus {
+    border-color: rgb(152, 174, 236);
+}
+
+.btn{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.formcontacto {
+    
+    
+    display: flex;
+    margin: 0 auto;
+    background-image: url("../img/fondosanlo.jpg");
+    padding: 100px;
+    width: 800px;
+    color:aliceblue;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    justify-content: $justificacion-centro;
+}
+
+/* Fondo del navbar */
+.width-bg {
+    background-image: url("../img/fondosanlo.jpg");
+}
+
+.hero-section {
+    background-image: url("../img/fondosanlo.jpg");
+    height: 20vh;
+}
+
+.margin-section {
+
+    margin-right: 5px;
+}
+
+.parrafoidolos {
+    width: 100%;
+}
