@@ -169,27 +169,18 @@ input, textarea {
 }
 
 .formcontacto {
-    
-    
-    display: flex;
     margin: 0 auto;
     background-image: url("../img/fondosanlo.jpg");
-    padding: 100px;
-    width: 800px;
+    padding: 200px;
     color:aliceblue;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     border-radius: 10px;
-    justify-content: $justificacion-centro;
+    max-width: 700px;
 }
 
 /* Fondo del navbar */
 .width-bg {
     background-image: url("../img/fondosanlo.jpg");
-}
-
-.hero-section {
-    background-image: url("../img/fondosanlo.jpg");
-    height: 20vh;
 }
 
 .margin-section {

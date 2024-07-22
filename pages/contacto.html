@@ -47,46 +47,39 @@
     </header>
 
     
-    <main>
-        <h1>Contacto</h1>
+    <main class="container">
+      <h1 class="text-center">Contacto</h1>
 
-        <div class="formcontacto ">
+      <div class="formcontacto">
+          <form action="" method="">
+              <div class="mb-3">
+                  <label>Nombre</label>
+                  <input type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre" required>
+              </div>
+              <div class="mb-3">
+                  <label>Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="Ingrese su correo electrónico" required>
+              </div>
+              <div class="mb-3">
+                  <label>Número de celular</label>
+                  <input type="tel" id="telefono" class="form-control" placeholder="Ingrese su número de celular" required>
+              </div>
+              <div class="mb-3">
+                  <label>Motivo de contacto</label>
+                  <textarea id="motivo" class="form-control" rows="5" placeholder="Escriba aquí el motivo de su contacto"></textarea>
+              </div>
+              <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+          </form>
+      </div>
 
-            <form action="" method="" enctype="" >
-
-                <p>Nombre</p>
-                <input type="text" maxlength="9" placeholder="Ingrese su nombre" required class="field">
-                <br>
-                <br>
-
-                <p>Email</p>
-                <input type="email" minlength="4" class="field">
-                <br>
-                <br>
-
-                <p>Número de celular</p>
-                <input type="number" minlength="4" class="field">
-                <br>
-                <br>
-
-                <p>Motivo de contacto</p>
-                <textarea rows="5" cols="40"></textarea>
-                <br>
-
-                <br><br>
-
-                <p class="button center-content">
-                    <input type="submit" class="btn btn-white" value="Enviar">
-                </p>
-            </form>
-        </div>
-
-    </main>
+  </main>
 
     <footer class="footer">
 
         <div>
-            <img src="../img/logoheader.png" alt="Logo del footer" class="logofooter">
+            <img src="../img/logoheader.png" alt="Logo del footer" class="logofooter img-fluid">
             <p>Todos los derechos reservados - CASLA</p>
             <p>2024</p>
         </div>
